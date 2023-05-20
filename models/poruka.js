@@ -1,4 +1,9 @@
 const mongoose = require('mongoose')
+require('dotenv').config()
+
+const password = process.env.LOZINKA
+const dbName = "porke-api"
+const url = `mongodb+srv://lucijakrsticevic:${password}@cluster0.qpriudf.mongodb.net/${dbName}?retryWrites=true&w=majority`
 
 const porukaSchema = new mongoose.Schema({
   sadrzaj: {
