@@ -20,7 +20,8 @@
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "jest": "^27.4.2",
-    "nodemon": "^2.0.14"
+    "nodemon": "^2.0.14",
+    "supertest": "^6.3.3"
   },
   "jest": {
     "testEnvironment": "node"
